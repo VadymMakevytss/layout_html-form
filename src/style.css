@@ -1,85 +1,15 @@
 /* styles go here */
-body {
-  margin: 0;
-  padding: 0;
-}
-
-input {
-  margin-top: 10px;
-}
-
 .split-section {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
+  margin-bottom: 20px;
 }
 
-.split-section:nth-child(1) {
-  margin-top: 10px;
-}
-
-.form-field {
-  vertical-align: middle;
-}
-
-.form-field:nth-child(1) {
-  margin-top: 5px;
-}
-
-/* .container {
-  width: 500px;
-}
-
-fieldset {
-  border: solid 2px black;
-}
-
-form {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.split-section {
-  margin-top: 20px;
-}
-
-.form-field {
-  margin-top: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  text-align: right;
-  width: 450px;
-  line-height: 26px;
+.form-field:not(:last-child) {
+  display: block;
   margin-bottom: 10px;
 }
 
-input {
-  height: 20px;
-  flex: 0 0 200px;
-  margin-left: 10px;
+.age {
+  width: 65px;
 }
-
-input[type="radio"] {
-  flex: 0 0 50px;
-}
-
-select {
-  flex: 0 0 207px;
-}
-
-.submit {
-  margin-top: 20px;
-  width: 100px;
-}
-
-.form-field.select {
-  justify-content: start;
-}
-
-.wrapper {
-  display: flex;
-  justify-content: right;
-  flex-direction: row;
-} */
